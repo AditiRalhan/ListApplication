@@ -17,40 +17,40 @@
         android:id="@+id/lin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
 
         >
+
         <EditText
             android:id="@+id/userInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
-            android:padding="7dp"
             android:layout_margin="10dp"
             android:layout_weight="9"
-            android:elevation="3dp"
-            android:textSize="18dp"
-            android:inputType="text"
-            android:hint="Ask your query here!"
-            android:textColor="#827C7C"
-            android:textColorHint="#827C7C"
             android:background="@drawable/bg_edtxt"
+            android:elevation="3dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Ask your query here!"
             android:imeActionId="4"
             android:imeOptions="actionSend"
-            />
+            android:inputType="text"
+            android:padding="7dp"
+            android:textColor="#827C7C"
+            android:textColorHint="#827C7C"
+            android:textSize="18dp" />
 
         <android.support.design.widget.FloatingActionButton
-            android:onClick="Send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/rightarrow"
-            android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            app:backgroundTint="#76bf43"
+            android:onClick="Send"
             android:tint="#eff0f2"
-            app:fabSize="mini"/>
+            app:backgroundTint="#76bf43"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/rightarrow" />
 
     </LinearLayout>
 
